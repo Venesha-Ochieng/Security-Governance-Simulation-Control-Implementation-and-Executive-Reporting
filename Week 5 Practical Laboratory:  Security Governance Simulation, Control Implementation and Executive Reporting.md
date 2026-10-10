@@ -362,11 +362,6 @@ Policy compliance provides management with an indication of whether approved gov
 ![Figure 4.8..](4.8...png)
 ![Figure 4.8...](4.8....png)
 
- 
- 
- 
- 
-
 ## 4.9 Board Report
 
 | Metric | Current Simulated Value | Target |
