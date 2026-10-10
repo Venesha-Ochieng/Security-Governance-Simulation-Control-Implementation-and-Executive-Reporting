@@ -64,67 +64,18 @@ The environment consists of three main containers together with the dedicated Do
 
 ### 1.3.1 Create a directory for the lab
 
-```bash
-mkdir security_governance_lab
-cd security_governance_lab
-```
 ![Figure 1.3.1](1.3.1.png)
-
-### Evidence
-
-![Create Lab Directory](screensory.png
 
 ---
 
 ### 1.3.2 Create a Docker network for the lab
 
-```bash
-docker network create secgov_network
-docker network ls
-```
-
-### Evidence
-
-screenshots/1.3.2-create-network.png
+![Figure 1.3.2](1.3.2.png)
 
 ---
 
 ### 1.3.3 Create a docker-compose.yml file
-
-```yaml
-version: '3.8'
-
-services:
-  web_server:
-    image: vulhub/struts2:s2-045
-    container_name: web_server
-    networks:
-      - secgov_network
-
-  database_server:
-    image: mysql:5.7
-    container_name: database_server
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: customer_db
-    networks:
-      - secgov_network
-
-  monitoring_server:
-    image: ubuntu:20.04
-    container_name: monitoring_server
-    command: sleep infinity
-    networks:
-      - secgov_network
-
-networks:
-  secgov_network:
-    external: true
-```
-
-### Evidence
-
-screenshots/1.3.3-docker-compose.png
+![Figure 1.3.3](1.3.3.png)
 
 ---
 
@@ -132,42 +83,11 @@ screenshots/1.3.3-docker-compose.png
 
 ### 1.4.1 Create database initialization script
 
-```sql
-CREATE DATABASE IF NOT EXISTS customer_db;
+![Figure 1.4.1](1.4.1.png)
 
-USE customer_db;
-
-CREATE TABLE customers (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    email VARCHAR(100),
-    phone VARCHAR(50)
-);
-
-INSERT INTO customers (name, email, phone)
-VALUES
-('John Smith','john@example.com','0712345678'),
-('Jane Doe','jane@example.com','0723456789'),
-('Michael Brown','michael@example.com','0734567890');
-```
-
-### Evidence
-
-screenshots/1.4.1-database-init.png
-
----
 
 ### 1.4.2 Create monitoring directory
-
-```bash
-mkdir monitoring
-ls -la
-```
-
-### Evidence
-
-screenshots/1.4.2-monitoring-directory.png
-
+![Figure 1.4.2](1.4.2.png)
 ---
 
 ### 1.4.3 Start the containers
