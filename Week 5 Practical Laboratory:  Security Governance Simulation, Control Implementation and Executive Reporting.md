@@ -91,112 +91,37 @@ The environment consists of three main containers together with the dedicated Do
 ---
 
 ### 1.4.3 Start the containers
-
-```bash
-docker compose up -d
-docker ps
-```
-
-### Evidence
-
-screenshots/1.4.3-running-containers.png
-
+![Figure 1.4.3](1.4.3.png)
 ---
 
 ## 1.5 Vulnerability Scanner
 
-```bash
-python3 vulnerability_scanner.py
-```
+![Figure 1.5](1.5.png)
 
-### Evidence
-
-screenshots/1.5-vulnerability-scanner.png
+![Figure 1.5.1](1.5.1.png)
 
 ---
 
 ## 1.6 Patch Management System
 
 ### Create a patch management script
+![Figure 1.6](1.6.png)
 
-```python
-#!/usr/bin/env python3
-
-patches = [
-    {
-        "system": "web_server",
-        "vulnerability": "Apache Struts S2-045",
-        "severity": "Critical",
-        "status": "Pending"
-    }
-]
-
-for patch in patches:
-    print(f"System: {patch['system']}")
-    print(f"Vulnerability: {patch['vulnerability']}")
-    print(f"Severity: {patch['severity']}")
-    print(f"Status: {patch['status']}")
-    print("-" * 30)
-```
-
-### Evidence
-
-screenshots/1.6-patch-management.png
+![Figure 1.6.1](1.6.1.png)
 
 ---
 
 ## 1.7 Governance Tracker
 
 ### 1.7.1 Create a security governance tracking script
-
-```python
-#!/usr/bin/env python3
-
-governance_data = {
-    "policies": [],
-    "controls": [],
-    "risks": [],
-    "incidents": [],
-    "metrics": [],
-    "audits": []
-}
-
-print("Security Governance Tracker Initialized")
-```
-
-### Evidence
-
-screenshots/1.7.1-governance-tracker.png
-
+![Figure 1.7.1](1.7.1.png)
 ---
 
 ### 1.7.2 Create a script to initialize the governance tracker with sample data
 
-```python
-#!/usr/bin/env python3
+![Figure 1.7.2](1.7.2.png)
 
-sample_data = {
-    "policies": 3,
-    "controls": 3,
-    "risks": 3,
-    "metrics": 3,
-    "audits": 1
-}
-
-print("Sample governance data loaded.")
-print(sample_data)
-```
-
-#### Run the initialization script
-
-```bash
-python3 initialize_governance_data.py
-```
-
-### Evidence
-
-screenshots/1.7.2-governance-init.png
-
+![Figure 1.7.2.](1.7.2..png)
 ---
 
 ## 1.8 Baseline Vulnerability Assessment
