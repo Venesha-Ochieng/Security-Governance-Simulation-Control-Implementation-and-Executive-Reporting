@@ -390,12 +390,19 @@ Security governance reporting provides the connection between technical security
 The executive dashboard provides management with rapid visibility into the overall security posture, while the Board Report presents information at a strategic level. Together, they enable management and the Board to determine whether controls are operating as expected, whether risks are increasing or decreasing and whether additional resources or corrective action are required.
 The governance value of reporting can be demonstrated through several areas:
 **Visibility:** Executives gain a clear view of security posture, risks and compliance performance.
+
 **Accountability:** Defined metrics and control ownership make it possible to identify who is responsible for remediation.
+
 **Performance monitoring:** Trend information shows whether security performance is improving, deteriorating or remaining stable.
+
 **Risk-based decision-making:** Management can prioritise resources toward the most significant weaknesses.
+
 **Escalation:** Metrics outside established thresholds can be escalated to executive or Board level.
+
 **Audit and assurance:** Reports provide evidence that controls and risks are being monitored and reviewed.
+
 **Continuous improvement:** Management can use trends and findings to improve policies, controls and security processes.
+
 The metrics framework reinforces this by requiring security information to progress from definition and collection through analysis, reporting, action and review.
 A particularly important governance principle is that reporting must be accurate and evidence-based. A favourable dashboard status should not replace technical validation.
 
