@@ -274,4 +274,37 @@ The comparison with the Equifax breach further demonstrated that ineffective pat
 
 The main governance lesson is that organisations must move beyond simply documenting policies and instead ensure that controls are continuously monitored, assigned to accountable owners, supported by meaningful metrics and followed by timely remediation and escalation.
 
+# Part 3: Implementing Security Governance Controls
+
+## 3.1 Objective
+
+Part 3's objective was to implement and verify a set of governance controls addressing the failures identified in Part 2, including patch management, network segmentation, database security, security monitoring, and governance oversight, and to document how each control maps back to a specific identified failure.
+
+---
+
+## 3.2 Create a Script to Implement Security Governance Controls
+
+![Figure 3.2](3.2.png)
+
+---
+
+## 3.3 Implement the Security Governance Controls (Patch Management, Network Segmentation, Database Security, Security Monitoring, Governance Oversight)
+
+![Figure 3.3](3.3.png)
+
+## 3.4 Verification
+
+Verification confirmed that the monitoring script and governance oversight document were implemented and that governance policies, controls and metrics were recorded. However, verification also revealed inconsistent patch-status persistence and the attack retest remained successful. These results demonstrate that governance controls were configured, but further technical remediation would be required before the vulnerable Struts service could be considered fully secured.
+
+![Figure 3.4](3.4.png)
+
+## 3.5 Equifax Control Mapping
+
+| Equifax Governance Failure | Part 3 Control Implemented | How the Control Addresses the Failure |
+|---------------------------|---------------------------|--------------------------------------|
+| Failure to remediate a known Apache Struts vulnerability | Automated Patch Management and Critical Patch Compliance Metric | Establishes a formal patching process, assigns ownership to the Security Engineer and measures whether critical patches are applied within the defined seven-day target. |
+| Weak security monitoring and delayed detection | Real-time Security Monitoring | Introduces monitoring for suspicious HTTP activity, database access and file changes, together with alert generation and a monitoring-coverage metric. |
+| Insufficient network segmentation | Network Segmentation Control | Applies a least-privilege segmentation control intended to restrict unnecessary communication between systems and 
+
+
 ---
