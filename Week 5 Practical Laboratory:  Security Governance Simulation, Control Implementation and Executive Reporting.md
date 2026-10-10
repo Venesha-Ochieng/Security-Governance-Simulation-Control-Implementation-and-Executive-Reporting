@@ -320,4 +320,113 @@ However, the post-control verification also revealed limitations in the simulati
 
 The main lesson from Part 3 is that implementing a control is not sufficient on its own. Effective security governance requires implementation, verification, measurable performance, clear accountability, continuous monitoring and follow-up remediation where controls do not operate as intended. This reinforces the Equifax lesson that known risks must be actively managed and validated rather than assumed to be resolved once a policy or control has been introduced.
 
+# Part 4 Developing Security Governance Metrics and Reporting
+## 4.1 Objective
+The objective of Part 4 is to convert technical and governance evidence into decision-ready metrics and reporting for operational management, executives and the Board. The reporting should show current posture, trends, threshold breaches, accountable owners and required management action.
+
+## 4.2 Create a script to generate security governance metrics:
+![Figure 4.2](4.2.png)
+![Figure 4.2.](4.2..png)
+
+## 4.3 Generate security governance metrics and reports:
+
+ 
+
+## 4.4 Vulnerability Remediation
+
+A vulnerability-remediation metric helps management identify whether vulnerabilities are accumulating or remaining open beyond the approved remediation period. Persistent values above the seven-day target would indicate the need for escalation, additional resources or stronger remediation accountability.
+
+ 
+
+## 4.5 Security Incidents
+
+The Security Incidents metric tracks the number of security incidents occurring during each reporting period. The simulated historical data generates between one and three incidents per month, while the current period is configured as zero incidents.
+
+Incident trends provide management with an indication of whether implemented controls are reducing security events. An increase in incidents could indicate deteriorating control effectiveness, changing threats or weaknesses requiring investigation.
+
+ 
+
+## 4.6 Monitoring Coverage
+
+The Security Monitoring Coverage metric measures the percentage of critical systems included within security monitoring.
+
+Monitoring coverage is important because security teams cannot effectively detect incidents on systems for which sufficient telemetry is unavailable. A value below the approved threshold should prompt management to identify unmonitored critical assets, assign remediation responsibility and track the coverage gap until closure.
+
+ 
+
+## 4.7 Policy Compliance
+
+The Policy Compliance metric measures the extent to which organisational security policies are implemented and followed.
+
+Policy compliance provides management with an indication of whether approved governance requirements are being translated into operational practice. Persistent non-compliance should result in investigation of the underlying cause, assignment of remediation actions and escalation where material exceptions remain unresolved.
+
+ 
+
+## 4.8 Executive Dashboard
+
+ 
+
+ 
+ 
+ 
+ 
+
+## 4.9 Board Report
+
+| Metric | Current Simulated Value | Target |
+|----------|----------|----------|
+| Patch Compliance | 100% | 95% |
+| Vulnerability Remediation Time | 1 day | 7 days |
+| Security Incidents | 0 | 0 |
+| Security Monitoring Coverage | 100% | 95% |
+| Policy Compliance | 100% | 95% |
+
+The Board Report also identifies 0 critical risks, 0 high risks, 2 medium risks and 3 low risks and provides recommendations including continued governance reviews, independent security assessment, enhanced security awareness, third-party risk management and ongoing metrics reporting.
+
+## 4.10 Metrics Framework
+
+The Security Governance Metrics Framework provides a structured approach for defining, collecting, analysing, reporting and reviewing security metrics. Its purpose is to ensure that security information supports ongoing governance oversight rather than being collected without clear management value.
+
+The framework groups metrics into four categories:
+
+| Metric Category | Purpose | Examples |
+|----------------|---------|----------|
+| Implementation Metrics | Measure whether controls have been implemented | Patch compliance, monitoring coverage, policy compliance |
+| Effectiveness Metrics | Measure whether controls are producing the intended result | Vulnerability remediation time, security incidents, control effectiveness |
+| Efficiency Metrics | Measure resources required to operate security controls | Security cost per employee, security staff ratio, automation level |
+| Impact Metrics | Measure the business consequences of security events | Incident cost, business disruption, customer impact |
+
+## 4.11 Governance Value of Reporting
+
+Security governance reporting provides the connection between technical security activity and executive oversight. Vulnerabilities, incidents, control failures and monitoring data become significantly more useful when they are converted into clear metrics, trends, thresholds and management reports.
+
+The executive dashboard provides management with rapid visibility into the overall security posture, while the Board Report presents information at a strategic level. Together, they enable management and the Board to determine whether controls are operating as expected, whether risks are increasing or decreasing and whether additional resources or corrective action are required.
+
+The governance value of reporting can be demonstrated through several areas:
+
+**Visibility:** Executives gain a clear view of security posture, risks and compliance performance.
+
+**Accountability:** Defined metrics and control ownership make it possible to identify who is responsible for remediation.
+
+**Performance monitoring:** Trend information shows whether security performance is improving, deteriorating or remaining stable.
+
+**Risk-based decision-making:** Management can prioritise resources toward the most significant weaknesses.
+
+**Escalation:** Metrics outside established thresholds can be escalated to executive or Board level.
+
+**Audit and assurance:** Reports provide evidence that controls and risks are being monitored and reviewed.
+
+**Continuous improvement:** Management can use trends and findings to improve policies, controls and security processes.
+
+The metrics framework reinforces this by requiring security information to progress from definition and collection through analysis, reporting, action and review.
+
+A particularly important governance principle is that reporting must be accurate and evidence-based. A favourable dashboard status should not replace technical validation.
+
+## 4.13 Part 4 Conclusion
+
+Part 4 demonstrated how technical and governance information can be transformed into meaningful security metrics and management reporting. The laboratory generated trend visualisations for patch compliance, vulnerability remediation time, security incidents, monitoring coverage and policy compliance, together with an Executive Dashboard and Board Report. The Metrics Framework and Dashboard User Guide further establish how these outputs should be defined, interpreted and used for governance oversight.
+
+The reporting process provides management and the Board with improved visibility into security performance, risk exposure, compliance status and control effectiveness. It also strengthens accountability by linking performance against targets to management action, escalation and continuous improvement.
+
+Part 4 demonstrates that meaningful security reporting is not simply the presentation of charts and statistics. Its governance value comes from enabling stakeholders to identify weaknesses, understand trends, assign accountability, prioritise remediation, escalate significant risks and make informed decisions. When combined with reliable technical evidence, governance metrics and executive reporting provide an effective foundation for continuous security oversight and improvement.
 ---
