@@ -68,7 +68,8 @@ The environment consists of three main containers together with the dedicated Do
 mkdir security_governance_lab
 cd security_governance_lab
 ```
-![1.3.1](<1.3.1..png>)
+![Figure 1.3.1](1.3.1.png)
+
 ### Evidence
 
 ![Create Lab Directory](screensory.png
