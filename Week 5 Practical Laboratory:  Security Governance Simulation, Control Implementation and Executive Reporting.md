@@ -121,50 +121,19 @@ The environment consists of three main containers together with the dedicated Do
 
 ![Figure 1.7.2](1.7.2.png)
 
+### Run the initialization script
+
 ![Figure 1.7.2.](1.7.2..png)
 ---
 
 ## 1.8 Baseline Vulnerability Assessment
 
-```bash
-python3 vulnerability_scanner.py
-```
-
-### Assessment Results
-
-| Risk Level | Count |
-|------------|--------|
-| Critical | 1 |
-| High | 1 |
-| Medium | 1 |
-| Low | 0 |
-
-### Evidence
-
-screenshots/1.8-baseline-assessment.png
-
+![Figure 1.8](1.8.png)
 ---
 
 ## 1.9 Governance Dashboard
 
-```bash
-python3 governance_dashboard.py
-```
-
-### Dashboard Summary
-
-| Metric | Target | Actual | Status |
-|----------|----------|----------|----------|
-| Patch Compliance | 95% | 85% | Red |
-| Vulnerability Remediation Time | 7 Days | 12 Days | Green* |
-| Critical Risks | 0 | 1 | Red |
-| High Risks | 0 | 1 | Red |
-| Security Incidents | 0 | 1 High | Red |
-
-### Evidence
-
-screenshots/1.9-governance-dashboard.png
-
+![Figure 1.9](1.9.png)
 ---
 
 ## 1.10 Equifax Relevance
@@ -215,42 +184,23 @@ The evidence generated during the simulation therefore provides the basis for th
 
 ### 2.2.1 Create an attack simulation script
 
-```python
-# attack_simulation.py
-```
-
-### Evidence
-
-screenshots/2.2.1-attack-simulation.png
-
+![Figure 2.2.1](2.2.1.png)
 ---
 
 ### 2.2.2 Create a log analysis script
 
-```python
-# log_analysis.py
-```
-
-### Evidence
-
-screenshots/2.2.2-log-analysis.png
+![Figure 2.2.2](2.2.2.png)
 
 ---
 
 ## 2.3 Attack Results
 
-### Evidence
-
-screenshots/2.3-attack-results.png
-
+![Figure 2.3](2.3.png)
 ---
 
 ## 2.4 Governance Failures
 
-### Evidence
-
-screenshots/2.4-governance-failures.png
-
+![Figure 2.4](2.4.png)
 ---
 
 ## 2.5 Root Causes
