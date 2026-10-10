@@ -304,7 +304,20 @@ Verification confirmed that the monitoring script and governance oversight docum
 |---------------------------|---------------------------|--------------------------------------|
 | Failure to remediate a known Apache Struts vulnerability | Automated Patch Management and Critical Patch Compliance Metric | Establishes a formal patching process, assigns ownership to the Security Engineer and measures whether critical patches are applied within the defined seven-day target. |
 | Weak security monitoring and delayed detection | Real-time Security Monitoring | Introduces monitoring for suspicious HTTP activity, database access and file changes, together with alert generation and a monitoring-coverage metric. |
-| Insufficient network segmentation | Network Segmentation Control | Applies a least-privilege segmentation control intended to restrict unnecessary communication between systems and 
+| Insufficient network segmentation | Network Segmentation Control | Applies a least-privilege segmentation control intended to restrict unnecessary communication between systems and reduce the possibility of lateral movement. |
+| Weak database authentication and access control | Database Security Control | Introduces stronger authentication and access controls for the database and assigns responsibility to the Database Administrator. |
+| Weak accountability and unclear ownership | Security Governance Oversight Policy | Defines responsibilities for the CEO, CISO, CIO and CFO and establishes reporting and escalation relationships. |
+| Insufficient executive and Board oversight | Executive Security Oversight Control | Establishes quarterly Board security briefings, annual security programme reviews and formal executive oversight of the security programme. |
+| Security metrics not driving remediation | Critical Patch Compliance and Security Monitoring Coverage Metrics | Introduces measurable targets so management can track control performance, identify weaknesses and require remediation where targets are not achieved. |
 
+## 3.6 Part 3 Conclusion
+
+Part 3 demonstrated the implementation of governance controls designed to address the weaknesses identified in Part 2. The controls covered patch management, network segmentation, database security, security monitoring and governance oversight, with supporting metrics, ownership and reporting mechanisms recorded in the governance tracker.
+
+The implementation improved the governance structure by assigning clear control ownership, introducing measurable targets for patch compliance and monitoring coverage, establishing executive and Board oversight, and creating mechanisms for security monitoring and escalation. The verification process also confirmed that the monitoring script and governance oversight documentation were implemented and that governance policies, controls and metrics were being tracked.
+
+However, the post-control verification also revealed limitations in the simulation. The patch-status results were inconsistent because control states were not retained together, and the subsequent attack simulation still identified the Struts application as vulnerable. Therefore, the Part 3 evidence demonstrates that governance controls were configured and recorded, but it does not prove that every underlying technical vulnerability was fully remediated.
+
+The main lesson from Part 3 is that implementing a control is not sufficient on its own. Effective security governance requires implementation, verification, measurable performance, clear accountability, continuous monitoring and follow-up remediation where controls do not operate as intended. This reinforces the Equifax lesson that known risks must be actively managed and validated rather than assumed to be resolved once a policy or control has been introduced.
 
 ---
