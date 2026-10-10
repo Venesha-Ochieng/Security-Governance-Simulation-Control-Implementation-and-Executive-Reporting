@@ -65,18 +65,10 @@ The environment consists of three main containers together with the dedicated Do
 ### 1.3.1 Create a directory for the lab
 
 ```bash
-mkdir -p ~/security-governance-lab
-cd ~/security-governance-lab
-```
-## 1.3 Docker Environment
-
-### 1.3.1 Create a directory for the lab
-
-```bash
 mkdir security_governance_lab
 cd security_governance_lab
 ```
-
+![1.3.1](<1.3.1..png>)
 ### Evidence
 
 ![Create Lab Directory](screensory.png
