@@ -329,42 +329,38 @@ The objective of Part 4 is to convert technical and governance evidence into dec
 ![Figure 4.2.](4.2..png)
 
 ## 4.3 Generate security governance metrics and reports:
-
- 
+![Figure 4.3](4.3.png) 
 
 ## 4.4 Vulnerability Remediation
-
 A vulnerability-remediation metric helps management identify whether vulnerabilities are accumulating or remaining open beyond the approved remediation period. Persistent values above the seven-day target would indicate the need for escalation, additional resources or stronger remediation accountability.
 
- 
+ ![Figure 4.4](4.4.png)
 
 ## 4.5 Security Incidents
-
 The Security Incidents metric tracks the number of security incidents occurring during each reporting period. The simulated historical data generates between one and three incidents per month, while the current period is configured as zero incidents.
-
 Incident trends provide management with an indication of whether implemented controls are reducing security events. An increase in incidents could indicate deteriorating control effectiveness, changing threats or weaknesses requiring investigation.
 
- 
+ ![Figure 4.5](4.5.png)
 
 ## 4.6 Monitoring Coverage
-
 The Security Monitoring Coverage metric measures the percentage of critical systems included within security monitoring.
-
 Monitoring coverage is important because security teams cannot effectively detect incidents on systems for which sufficient telemetry is unavailable. A value below the approved threshold should prompt management to identify unmonitored critical assets, assign remediation responsibility and track the coverage gap until closure.
 
- 
+ ![Figure 4.6](4.6.png)
 
 ## 4.7 Policy Compliance
-
 The Policy Compliance metric measures the extent to which organisational security policies are implemented and followed.
-
 Policy compliance provides management with an indication of whether approved governance requirements are being translated into operational practice. Persistent non-compliance should result in investigation of the underlying cause, assignment of remediation actions and escalation where material exceptions remain unresolved.
 
- 
+ ![Figure 4.7](4.7.png)
 
 ## 4.8 Executive Dashboard
 
- 
+![Figure 4..8](4..8.png)
+![Figure 4.8](4.8.png)
+![Figure 4.8.](4.8..png)
+![Figure 4.8..](4.8...png)
+![Figure 4.8...](4.8....png)
 
  
  
