@@ -375,9 +375,7 @@ Policy compliance provides management with an indication of whether approved gov
 The Board Report also identifies 0 critical risks, 0 high risks, 2 medium risks and 3 low risks and provides recommendations including continued governance reviews, independent security assessment, enhanced security awareness, third-party risk management and ongoing metrics reporting.
 
 ## 4.10 Metrics Framework
-
 The Security Governance Metrics Framework provides a structured approach for defining, collecting, analysing, reporting and reviewing security metrics. Its purpose is to ensure that security information supports ongoing governance oversight rather than being collected without clear management value.
-
 The framework groups metrics into four categories:
 
 | Metric Category | Purpose | Examples |
@@ -388,36 +386,23 @@ The framework groups metrics into four categories:
 | Impact Metrics | Measure the business consequences of security events | Incident cost, business disruption, customer impact |
 
 ## 4.11 Governance Value of Reporting
-
 Security governance reporting provides the connection between technical security activity and executive oversight. Vulnerabilities, incidents, control failures and monitoring data become significantly more useful when they are converted into clear metrics, trends, thresholds and management reports.
-
 The executive dashboard provides management with rapid visibility into the overall security posture, while the Board Report presents information at a strategic level. Together, they enable management and the Board to determine whether controls are operating as expected, whether risks are increasing or decreasing and whether additional resources or corrective action are required.
-
 The governance value of reporting can be demonstrated through several areas:
-
 **Visibility:** Executives gain a clear view of security posture, risks and compliance performance.
-
 **Accountability:** Defined metrics and control ownership make it possible to identify who is responsible for remediation.
-
 **Performance monitoring:** Trend information shows whether security performance is improving, deteriorating or remaining stable.
-
 **Risk-based decision-making:** Management can prioritise resources toward the most significant weaknesses.
-
 **Escalation:** Metrics outside established thresholds can be escalated to executive or Board level.
-
 **Audit and assurance:** Reports provide evidence that controls and risks are being monitored and reviewed.
-
 **Continuous improvement:** Management can use trends and findings to improve policies, controls and security processes.
-
 The metrics framework reinforces this by requiring security information to progress from definition and collection through analysis, reporting, action and review.
-
 A particularly important governance principle is that reporting must be accurate and evidence-based. A favourable dashboard status should not replace technical validation.
 
 ## 4.13 Part 4 Conclusion
 
 Part 4 demonstrated how technical and governance information can be transformed into meaningful security metrics and management reporting. The laboratory generated trend visualisations for patch compliance, vulnerability remediation time, security incidents, monitoring coverage and policy compliance, together with an Executive Dashboard and Board Report. The Metrics Framework and Dashboard User Guide further establish how these outputs should be defined, interpreted and used for governance oversight.
-
 The reporting process provides management and the Board with improved visibility into security performance, risk exposure, compliance status and control effectiveness. It also strengthens accountability by linking performance against targets to management action, escalation and continuous improvement.
-
 Part 4 demonstrates that meaningful security reporting is not simply the presentation of charts and statistics. Its governance value comes from enabling stakeholders to identify weaknesses, understand trends, assign accountability, prioritise remediation, escalate significant risks and make informed decisions. When combined with reliable technical evidence, governance metrics and executive reporting provide an effective foundation for continuous security oversight and improvement.
+
 ---
